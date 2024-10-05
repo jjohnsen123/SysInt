@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Message>
+	<Header>
+		<Sender>AirlineCompany</Sender>
+		<Receiver>AirportInformationCenter</Receiver>
+		<MessageType>FlightInfo</MessageType>
+		<Timestamp>2024-08-23T12:30:00Z</Timestamp>
+	</Header>
+	<Body>
+		<Flight>
+			<airline>SAS</airline>
+			<flightNo>SK952</flightNo>
+			<plannedTime>2024-08-24T14:30:00Z</plannedTime>
+			<type>Arrival/Departure</type>
+			<destination>AMS</destination>
+			<checkIn>12:00</checkIn>
+		</Flight>
+	</Body>
+</Message>
